@@ -1,0 +1,610 @@
+﻿<Window x:Class="EksamensProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EksamensProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="MainGrid">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\ProgramBackgroundImage2.jpg"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+            <RowDefinition Height="12.5"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnPlayers" Content="Players" Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="2" Click="btnPlayers_Click" Foreground="#FFDC54" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\ButtonBackgroundLOL.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnTurnament" Content="Turnaments" Grid.Column="10" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="2" Click="btnTurnament_Click" Foreground="#FFDC54" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\ButtonBackgroundLOL.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnWokers" Content="Imployees" Grid.Column="18" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="2" Click="btnWokers_Click" Foreground="#FFDC54" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\ButtonBackgroundLOL.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnSponsors" Content="Sponsors" Grid.Column="26" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="2" Click="btnSponsors_Click" Foreground="#FFDC54" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\ButtonBackgroundLOL.jpg"/>
+            </Button.Background>
+        </Button>
+
+        <Image x:Name="imgIron" Source="C:\Users\jimm6288\source\repos\EksamensProject\Images\Emblem\Emblem_Iron.png" Grid.Column="1" Grid.Row="4" Grid.RowSpan="5" Grid.ColumnSpan="4"/>
+        <Image x:Name="imgBronze" Source="C:\Users\jimm6288\source\repos\EksamensProject\Images\Emblem\Emblem_Bronze.png" Grid.Column="4" Grid.Row="4" Grid.RowSpan="5" Grid.ColumnSpan="4"/>
+        <Image x:Name="imgSilver" Source="C:\Users\jimm6288\source\repos\EksamensProject\Images\Emblem\Emblem_Silver.png" Grid.Column="7" Grid.Row="4" Grid.RowSpan="5" Grid.ColumnSpan="4"/>
+        <Image x:Name="imgGold" Source="C:\Users\jimm6288\source\repos\EksamensProject\Images\Emblem\Emblem_Gold.png" Grid.Column="10" Grid.Row="4" Grid.RowSpan="5" Grid.ColumnSpan="4"/>
+        <Image x:Name="imgPlatinum" Source="C:\Users\jimm6288\source\repos\EksamensProject\Images\Emblem\Emblem_Platinum.png" Grid.Column="13" Grid.Row="4" Grid.RowSpan="5" Grid.ColumnSpan="4"/>
+        <Image x:Name="imgDiamond" Source="C:\Users\jimm6288\source\repos\EksamensProject\Images\Emblem\Emblem_Diamond.png" Grid.Column="16" Grid.Row="4" Grid.RowSpan="5" Grid.ColumnSpan="4"/>
+        <Image x:Name="imgMaster" Source="C:\Users\jimm6288\source\repos\EksamensProject\Images\Emblem\Emblem_Master.png" Grid.Column="19" Grid.Row="4" Grid.RowSpan="5" Grid.ColumnSpan="4"/>
+        <Image x:Name="imgGrandmaster" Source="C:\Users\jimm6288\source\repos\EksamensProject\Images\Emblem\Emblem_Grandmaster.png" Grid.Column="22" Grid.Row="4" Grid.RowSpan="5" Grid.ColumnSpan="4"/>
+        <Image x:Name="imgChallenger" Source="C:\Users\jimm6288\source\repos\EksamensProject\Images\Emblem\Emblem_Challenger.png" Grid.Column="25" Grid.Row="4" Grid.RowSpan="5" Grid.ColumnSpan="4"/>
+
+        <Grid x:Name="grdPlayers" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="30" Grid.RowSpan="22" Visibility="Hidden">
+            <Grid.Background>
+                <ImageBrush ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\SecondaryGridBackground2.jpeg"/>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="btnAddPlayer" Content="Add Player" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="4" Grid.RowSpan="2" Click="btnAddPlayer_Click" Foreground="#FFDC54" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\ButtonBackgroundLOL.jpg"/>
+                </Button.Background>
+            </Button>
+
+            <TextBlock x:Name="txtblkPlayerName" Foreground="#FFDC54" FontWeight="Bold" Grid.Row="4" Grid.Column="1" Text="PlayerName" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+            <TextBox x:Name="txtbxPlayerName"  Grid.Row="4" Grid.Column="6" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+
+            <TextBlock x:Name="txtblkPlayerSummonerName" Foreground="#FFDC54" FontWeight="Bold" Grid.Row="6" Grid.Column="1" Text="SummonerName" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+            <TextBox x:Name="txtbxPlayerSummonerName" Grid.Row="6" Grid.Column="6" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+
+            <TextBlock x:Name="txtblkPlayerRank" Foreground="#FFDC54" FontWeight="Bold" Grid.Row="8" Grid.Column="1" Text="Rank" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+            <TextBox x:Name="txtbxPlayerRank" Grid.Row="8" Grid.Column="6" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+
+            <TextBlock x:Name="txtblkPlayerPhone" Foreground="#FFDC54" FontWeight="Bold" Grid.Row="10" Grid.Column="1" Text="Phone number" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+            <TextBox x:Name="txtbxPlayerPhone" Grid.Row="10" Grid.Column="6" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+
+            <TextBlock x:Name="txtblkPlayerTurnamentType" Foreground="#FFDC54" FontWeight="Bold" Grid.Row="12" Grid.Column="1" Text="Turnament Type" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+            <TextBox x:Name="txtbxPlayerTurnamentType" Grid.Row="12" Grid.Column="6" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+
+            <Button x:Name="btnPlayerInfoAccept" Content="Accept Info" Grid.Column="6" Grid.Row="1" Grid.ColumnSpan="4" Grid.RowSpan="2" Click="btnPlayerInfoAccept_Click" Visibility="Hidden" Foreground="#FFDC54" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\ButtonBackgroundLOL.jpg"/>
+                </Button.Background>
+            </Button>
+
+            <Button x:Name="btnPlayerListUpdate" Content="Update List" Grid.Column="12" Grid.Row="1" Grid.ColumnSpan="4" Grid.RowSpan="2" Click="btnListUpdate_Click" Visibility="Visible" Foreground="#FFDC54" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\ButtonBackgroundLOL.jpg"/>
+                </Button.Background>
+            </Button>
+
+            <Grid x:Name="grdplayerlist" Grid.Row="1" Grid.Column="19" Grid.RowSpan="20" Grid.ColumnSpan="10" Background="LightCyan">
+                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                </Grid.RowDefinitions>
+            </Grid>
+        </Grid>
+        
+        <Grid x:Name="grdTurnaments" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="30" Grid.RowSpan="22" Visibility="Hidden">
+            <Grid.Background>
+                <ImageBrush ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\SecondaryGridBackground2.jpeg"/>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="btnAddTurnament" Content="Add Turnament" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="4" Grid.RowSpan="2" Click="btnAddTurnament_Click" Foreground="#FFDC54" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\ButtonBackgroundLOL.jpg"/>
+                </Button.Background>
+            </Button>
+
+            <TextBlock x:Name="txtblkTurnamentName" Foreground="#FFDC54" FontWeight="Bold" Grid.Row="4" Grid.Column="1" Text="Turnament Name" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+            <TextBox x:Name="txtbxTurnamentName"  Grid.Row="4" Grid.Column="6" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+
+            <TextBlock x:Name="txtblkPlayerID" Foreground="#FFDC54" FontWeight="Bold" Grid.Row="6" Grid.Column="1" Text="Player ID" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+            <TextBox x:Name="txtbxPlayerID" Grid.Row="6" Grid.Column="6" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+
+            <TextBlock x:Name="txtblkPlayerNameForTurnament" Foreground="#FFDC54" FontWeight="Bold" Grid.Row="8" Grid.Column="1" Text="Player Name" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+            <TextBox x:Name="txtbxPlayerNameForTurnament" Grid.Row="8" Grid.Column="6" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+
+            <TextBlock x:Name="txtblkPlayerPhoneForTurnament" Foreground="#FFDC54" FontWeight="Bold" Grid.Row="10" Grid.Column="1" Text="Player Phone" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+            <TextBox x:Name="txtbxPlayerPhoneForTurnament" Grid.Row="10" Grid.Column="6" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+
+            <TextBlock x:Name="txtblkJudgeID" Foreground="#FFDC54" FontWeight="Bold" Grid.Row="12" Grid.Column="1" Text="Judge ID" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+            <TextBox x:Name="txtbxJudgeID" Grid.Row="12" Grid.Column="6" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+
+            <TextBlock x:Name="txtblkJudgeNameForTurnament" Foreground="#FFDC54" FontWeight="Bold" Grid.Row="14" Grid.Column="1" Text="Judge Name" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+            <TextBox x:Name="txtbxJudgeNameForTurnament" Grid.Row="14" Grid.Column="6" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+
+            <TextBlock x:Name="txtblkJudgePhoneForTurnament" Foreground="#FFDC54" FontWeight="Bold" Grid.Row="16" Grid.Column="1" Text="Judge Phone" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+            <TextBox x:Name="txtbxJudgePhoneForTurnament" Grid.Row="16" Grid.Column="6" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+
+            <TextBlock x:Name="txtblkJudgeLevelForTurnament" Foreground="#FFDC54" FontWeight="Bold" Grid.Row="18" Grid.Column="1" Text="Judge Level" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+            <TextBox x:Name="txtbxJudgeLevelForTurnament" Grid.Row="18" Grid.Column="6" Margin="2" TextAlignment="Center" Grid.ColumnSpan="4" Grid.RowSpan="2" Visibility="Hidden"/>
+
+            <Button x:Name="btnTurnamentInfoAccept" Content="Accept Info" Grid.Column="6" Grid.Row="1" Grid.ColumnSpan="4" Grid.RowSpan="2" Click="btnTurnamentInfoAccept_Click" Visibility="Hidden" Foreground="#FFDC54" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\ButtonBackgroundLOL.jpg"/>
+                </Button.Background>
+            </Button>
+            <Grid x:Name="grdTurnamentlist" Grid.Row="1" Grid.Column="19" Grid.RowSpan="20" Grid.ColumnSpan="10" Background="LightCyan">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                </Grid.RowDefinitions>
+            </Grid>
+        </Grid>
+        
+        <Grid x:Name="grdWorkers" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="30" Grid.RowSpan="22" Visibility="Hidden">
+            <Grid.Background>
+                <ImageBrush ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\SecondaryGridBackground2.jpeg"/>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="btnAddWorker" Content="Add Worker" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="4" Grid.RowSpan="2" Click="btnAddWorker_Click" Foreground="#FFDC54" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\ButtonBackgroundLOL.jpg"/>
+                </Button.Background>
+            </Button>
+            <Grid x:Name="grdWorkerlist" Grid.Row="1" Grid.Column="19" Grid.RowSpan="20" Grid.ColumnSpan="10" Background="LightCyan">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                </Grid.RowDefinitions>
+            </Grid>
+        </Grid>
+        
+        <Grid x:Name="grdSponsors" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="30" Grid.RowSpan="22" Visibility="Hidden">
+            <Grid.Background>
+                <ImageBrush ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\SecondaryGridBackground2.jpeg"/>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+                <RowDefinition Height="12.5"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="btnAddSponsor" Content="Add Sponsor" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="4" Grid.RowSpan="2" Click="btnAddSponsor_Click" Foreground="#FFDC54" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="C:\Users\jimm6288\source\repos\EksamensProject\Images\background\ButtonBackgroundLOL.jpg"/>
+                </Button.Background>
+            </Button>
+            <Grid x:Name="grdsponsorlist" Grid.Row="1" Grid.Column="19" Grid.RowSpan="20" Grid.ColumnSpan="10" Background="LightCyan">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                    <RowDefinition Height="12.5"/>
+                </Grid.RowDefinitions>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

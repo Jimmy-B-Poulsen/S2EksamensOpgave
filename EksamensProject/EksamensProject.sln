@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksamensProject", "EksamensProject.csproj", "{41C5B769-124F-42D6-9EE0-F52ED4946AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksamensOpgave_PlayerTest", "..\EksamensOpgave_PlayerTest\EksamensOpgave_PlayerTest.csproj", "{6277671C-832C-40ED-9177-C271CB348DC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41C5B769-124F-42D6-9EE0-F52ED4946AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C5B769-124F-42D6-9EE0-F52ED4946AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C5B769-124F-42D6-9EE0-F52ED4946AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C5B769-124F-42D6-9EE0-F52ED4946AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6277671C-832C-40ED-9177-C271CB348DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6277671C-832C-40ED-9177-C271CB348DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6277671C-832C-40ED-9177-C271CB348DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6277671C-832C-40ED-9177-C271CB348DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3E37C77-F276-47B6-A670-39F75CAD1DC7}
+	EndGlobalSection
+EndGlobal
